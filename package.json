@@ -1,7 +1,7 @@
 {
   "private": true,
   "name": "value-generator",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Random and extreme value generator library.",
   "keywords": [
     "random",
@@ -10,6 +10,10 @@
     "generator",
     "testing"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/retueZe/node-value-generator"
+  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [

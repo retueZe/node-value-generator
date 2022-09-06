@@ -20,7 +20,7 @@ console.log(picker.next()) // 1
 ```javascript
 const randomValues = [0.4, 0.9, 0.5]
 const random = () => randomValues.shift() ?? 0
-const sourceGenerator = new NumberGenerator(null, null, random) // default boundaries: [10;50], generates floats
+const sourceGenerator = new NumberGenerator(random) // default boundaries: [10;50], generates floats
 const generator = sourceGenerator.limit(3, 0, true) // new boundaries: [0;3], generates integers
 console.log(generator.next()) // 1
 console.log(generator.next()) // 3
